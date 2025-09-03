@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProPie - Smart Investing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header, section, footer {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section1, .section3 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .text {
+      flex: 1 1 400px;
+    }
+
+    .image {
+      flex: 1 1 400px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    .join-btn {
+      background-color: #007bff;
+      color: #fff;
+      padding: 12px 28px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .join-btn:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+
+    .center-heading {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .problem-solution {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      text-align: center;
+    }
+
+    .problem, .solution {
+      flex: 1 1 300px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .steps {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      gap: 20px;
+    }
+
+    .step {
+      text-align: center;
+      max-width: 200px;
+    }
+
+    footer {
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 40px;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    @media(max-width: 768px) {
+      .section1, .section3, .problem-solution, .steps {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .join-btn {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SECTION 1 -->
+  <section class="section1">
+    <div class="text">
+      <h1>Invest in GCC Real Estate. Fractionally.</h1>
+      <p>Starting from USD 2,000, Fully managed.</p>
+      <p><strong>Investments POWERED BY AI</strong></p>
+      <button class="join-btn">Join the Waitlist</button>
+    </div>
+    <div class="image">
+      <img src="propertyExample2.png" alt="Property image">
+    </div>
+  </section>
+
+  <!-- SECTION 2 -->
+  <section>
+    <div class="center-heading">Real Estate is Secure, But not Accessible</div>
+    <div class="problem-solution">
+      <div class="problem">
+        <img src="sad.png" alt="Sad face">
+        <h3>Problem</h3>
+        <p>High Capital, Paperwork, Illiquidity</p>
+        
+      </div>
+      <div class="solution">
+        <img src="Happy.png" alt="Happy face">
+        <h3>Solution</h3>
+        <p>Buy a share, Get Rental income, Sell anytime.</p>
+        
+      </div>
+    </div>
+
+    <h3 style="text-align:center; margin-top: 40px;">How Emiratiyo Works</h3>
+    <div class="steps">
+      <div class="step">
+        <img src="choose-property.png" alt="Choose">
+        <p>Choose a property</p>
+      </div>
+      <div class="step">
+        <img src="fractional-invest.png" alt="Fractional">
+        <p>Invest fractionally</p>
+      </div>
+      <div class="step">
+        <img src="rental-income.png" alt="Wallet">
+        <p>Earn rental income</p>
+      </div>
+      <div class="step">
+        <img src="sell-share.png" alt="Sell">
+        <p>Sell your share</p>
+      </div>
+    </div>
+    <p style="text-align:center; font-size: 14px; margin-top: 10px;">
+      We handle everything (legal, tenants, resale)
+    </p>
+  </section>
+
+  <!-- SECTION 3 -->
+  <section class="section3">
+    <div class="text">
+      <h1>Smarter Property Selection With AI</h1>
+      <p>Our AI scans Dubai Land Department data, infrastructure updates, and trends to recommend the most profitable and safe properties.</p>
+      <p><strong>Built for Expats. Backed by Experts.</strong></p>
+    </div>
+    <div class="image">
+      <img src="ai-analytics.png" alt="AI Selection">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    ProPie. SMART INVESTING
+  </footer>
+
+</body>
+</html>
